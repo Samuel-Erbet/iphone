@@ -8,11 +8,14 @@ public class Iphone implements AparelhoTelefonico, NavegadorInternet, Reprodutor
 
         var iphone = new Iphone();
         iphone.adicionarNovaGuia();
-        iphone.atender();
         iphone.atualizarPagina();
         iphone.exibirPagina(url);
+        iphone.atender();
+        iphone.ligar(numero);
         iphone.iniciarCorreioDeVoz();
         iphone.tocarMusica();
+        iphone.pausarMusica();
+        iphone.selecionarMusica(musica);
          
     }
 
