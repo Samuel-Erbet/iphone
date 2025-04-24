@@ -1,3 +1,4 @@
+```
 classDiagram
     iphone <|-- interface_ReprodutorMusical
     iphone <|-- interface_navegadorDeInternet
@@ -20,4 +21,4 @@ classDiagram
       +AtualizarPagina()
     }
 
-    
+    ```
